@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Mukta';
+  src: url('../fonts/mukta/Mukta-ExtraBold.eot');
+  src: url('../fonts/mukta/Mukta-ExtraBold.eot?#iefix') format('embedded-opentype'), url('../fonts/mukta/Mukta-ExtraBold.woff2') format('woff2'), url('../fonts/mukta/Mukta-ExtraBold.woff') format('woff'), url('../fonts/mukta/Mukta-ExtraBold.ttf') format('truetype'), url('../fonts/mukta/Mukta-ExtraBold.svg#Mukta-ExtraBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Mukta';
+  src: url('../fonts/mukta/Mukta-Bold.eot');
+  src: url('../fonts/mukta/Mukta-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/mukta/Mukta-Bold.woff2') format('woff2'), url('../fonts/mukta/Mukta-Bold.woff') format('woff'), url('../fonts/mukta/Mukta-Bold.ttf') format('truetype'), url('../fonts/mukta/Mukta-Bold.svg#Mukta-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Mukta';
+  src: url('../fonts/mukta/Mukta-Light.eot');
+  src: url('../fonts/mukta/Mukta-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/mukta/Mukta-Light.woff2') format('woff2'), url('../fonts/mukta/Mukta-Light.woff') format('woff'), url('../fonts/mukta/Mukta-Light.ttf') format('truetype'), url('../fonts/mukta/Mukta-Light.svg#Mukta-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Mukta';
+  src: url('../fonts/mukta/Mukta-ExtraLight.eot');
+  src: url('../fonts/mukta/Mukta-ExtraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/mukta/Mukta-ExtraLight.woff2') format('woff2'), url('../fonts/mukta/Mukta-ExtraLight.woff') format('woff'), url('../fonts/mukta/Mukta-ExtraLight.ttf') format('truetype'), url('../fonts/mukta/Mukta-ExtraLight.svg#Mukta-ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Mukta';
+  src: url('../fonts/mukta/Mukta-Medium.eot');
+  src: url('../fonts/mukta/Mukta-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/mukta/Mukta-Medium.woff2') format('woff2'), url('../fonts/mukta/Mukta-Medium.woff') format('woff'), url('../fonts/mukta/Mukta-Medium.ttf') format('truetype'), url('../fonts/mukta/Mukta-Medium.svg#Mukta-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Mukta';
+  src: url('../fonts/mukta/Mukta-Regular.eot');
+  src: url('../fonts/mukta/Mukta-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/mukta/Mukta-Regular.woff2') format('woff2'), url('../fonts/mukta/Mukta-Regular.woff') format('woff'), url('../fonts/mukta/Mukta-Regular.ttf') format('truetype'), url('../fonts/mukta/Mukta-Regular.svg#Mukta-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Mukta';
+  src: url('../fonts/mukta/Mukta-SemiBold.eot');
+  src: url('../fonts/mukta/Mukta-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/mukta/Mukta-SemiBold.woff2') format('woff2'), url('../fonts/mukta/Mukta-SemiBold.woff') format('woff'), url('../fonts/mukta/Mukta-SemiBold.ttf') format('truetype'), url('../fonts/mukta/Mukta-SemiBold.svg#Mukta-SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
