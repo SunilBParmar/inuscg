@@ -819,6 +819,72 @@ section#transparency {
 .transparency-grids {
   margin: 47px 0 22px;
 }
+.case-studies-blocks:nth-child(2n) {
+  background: #f9f9f9;
+}
+.case-studies-blocks {
+  width: 100%;
+  padding: 60px 0;
+  background: #fff;
+  position: relative;
+}
+section#pudding .case-studies-blocks h2.section-title {
+  line-height: 69.8px;
+  margin: 0 0 30px;
+}
+section#top-banner {
+  background: #f9f9f9;
+  padding: 80px 0;
+}
+.title-with-button {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.title-with-button h1 {
+  font-size: 42px;
+  line-height: 69.8px;
+  margin: 0 0 28px;
+  text-align: center;
+}
+.cms section#pudding {
+  position: relative;
+  z-index: 9;
+  padding-top: 0;
+}
+.pudding-slider.single .card-outer {
+  padding: 0;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.cms .floating-objects .object1 {
+  top: 135px;
+  left: 70px;
+}
+.cms .floating-objects .object2 {
+  top: 115px;
+  right: 75px;
+}
+.cms .floating-objects .object3 {
+  top: 229px;
+  left: 213px;
+}
+.cms .floating-objects .object4 {
+  top: 215px;
+  right: 237px;
+}
+.cms .floating-objects .object5 {
+  top: 288px;
+  left: 25px;
+}
+.cms .floating-objects .object6 {
+  top: 277px;
+  right: 23px;
+}
+.title-with-button .btn.btn-primary {
+  min-width: 200px;
+}
 @keyframes swing {
   0% {
     transform: rotate(8deg);
@@ -845,6 +911,13 @@ section#transparency {
     font-size: 18px;
     line-height: normal;
     width: calc(50% - 20px);
+  }
+  .pudding-slider.single .card-outer {
+    margin: 0 40px;
+    max-width: 100%;
+  }
+  .pudding-slider.single .card-outer .card {
+    margin: 0 auto;
   }
 }
 @media (max-width: 991px) {
@@ -1183,6 +1256,43 @@ section#transparency {
     font-size: 18px;
     line-height: normal;
     width: 100%
+  }
+  .title-with-button h1 {
+    line-height: 60px;
+  }
+  section#pudding .case-studies-blocks h2.section-title {
+    font-size: 24px;
+    line-height: 39.89px;
+    margin: 0 0 17px;
+  }
+  .cms .floating-objects .object1 {
+    top: 89px;
+    left: 0;
+  }
+  .cms .floating-objects .object2 {
+    top: 240px;
+    right: 60px;
+  }
+  .cms .floating-objects .object3 {
+    top: 187px;
+    left: 80px;
+  }
+  .cms .floating-objects .object4 {
+    top: 354px;
+    right: 105px;
+  }
+  .cms .floating-objects .object5 {
+    left: -20px;
+  }
+  .cms .floating-objects .object6 {
+    top: 383px;
+    right: -8px;
+  }
+  section#top-banner {
+    min-height: 414px;
+  }
+  .pudding-logo img {
+    margin: 0 auto 20px;
   }
 }
 @media (max-width: 400px) {

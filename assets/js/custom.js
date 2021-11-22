@@ -51,8 +51,13 @@ $(function() {
 });
 
 function parallaxHeroObjects() {
-  console.log("inide funtio");
-  const parallaxContainer = document.getElementById("hero");
+  console.log("Inside parallaxHeroObjects() function");
+  parallaxContainer = "";
+  if (jQuery("#hero").length) {
+    parallaxContainer = document.getElementById("hero");
+  } else {
+    parallaxContainer = document.getElementById("top-banner");
+  }
   const chouchin = document.querySelectorAll(".floatingitems");
 
   const fixer = 0.003;
@@ -93,7 +98,7 @@ function mobileManipulations() {
     jQuery(".right-sidebar").remove();
   }
 
-  if ($(".pudding-slider").length) {
+  if ($(".pudding-slider:not(.single)").length) {
     $('.pudding-slider .card').removeAttr("style");
     $(".pudding-slider.slick-initialized.slick-slider").slick("unslick");
     var maxHeight = -1;
@@ -106,7 +111,7 @@ function mobileManipulations() {
       $(this).css('height', maxHeight + 'px');
     });
     console.log("pudding slider initialised");
-    $('.pudding-slider').slick({
+    $('.pudding-slider:not(.single)').slick({
       infinite: true,
       slidesToShow: 1,
       slidesToScroll: 1,
