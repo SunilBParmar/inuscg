@@ -78,7 +78,7 @@ span.icon.red-circle {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 span.icon.shit {
   background-image: url("../images/getshitdone.png");
@@ -741,7 +741,7 @@ span.footer-lines:nth-child(2) {
 span.footer-lines:nth-child(3) {
   left: 1094px;
 }
-body > header {
+body>header {
   height: 142px;
   align-items: center;
   display: flex;
@@ -757,15 +757,16 @@ h1.main-title {
   margin: 36px;
 }
 section#video {
-  padding: 0;height: 608px;
+  padding: 0;
+  height: 608px;
   position: relative;
 }
 section#video img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
-section#cms-gallary.withTitle > .container {
+section#cms-gallary.withTitle>.container {
   padding: 15px 0 50px;
   background-color: #fff;
   box-shadow: 0px 13px 18px 2px rgb(218 216 216 / 25%);
@@ -816,7 +817,7 @@ section#transparency {
   border-color: #9B6FFF;
 }
 .transparency-grids {
-  margin: 47px 0 0;
+  margin: 47px 0 22px;
 }
 @keyframes swing {
   0% {
@@ -831,8 +832,23 @@ section#transparency {
     max-width: 617px;
   }
 }
+@media (max-width: 1199px) {
+  .transparency-grids>.d-flex {
+    flex-wrap: wrap;
+  }
+  .transparency-grids>.d-flex:not(:last-child) {
+    margin: 0 0 30px;
+  }
+  .transparency-block {
+    margin: 20px auto 0 0;
+    padding: 20px;
+    font-size: 18px;
+    line-height: normal;
+    width: calc(50% - 20px);
+  }
+}
 @media (max-width: 991px) {
-  header {
+  body.home header {
     top: 20px;
   }
   section#hero {
@@ -912,10 +928,19 @@ section#transparency {
   section#cms-gallary ul {
     width: auto;
     height: auto;
-    padding: 30px;
+    padding: 0;
   }
   section#cms-gallary {
     width: auto;
+    margin: 0 20px;
+  }
+  section#cms-gallary.withTitle>.container {
+    padding: 18px 30px;
+  }
+  section#cms-gallary.withTitle h2 {
+    font-size: 24px;
+    line-height: 39.89px;
+    margin: 0 0 30px;
   }
   section#cms-gallary ul li {
     margin: 20px 0;
@@ -1080,29 +1105,20 @@ section#transparency {
     position: absolute;
     z-index: 9999;
   }
-  body > header {
+  body>header {
     height: 80px;
   }
   h1.main-title {
-      margin: 15px;
-      text-align: center;
-      line-height: normal;
-      font-size: 30px;
+    margin: 15px;
+    text-align: center;
+    line-height: normal;
+    font-size: 30px;
   }
   section#video {
-      height: 100vh;
-  }
-  .transparency-grids > .d-flex {
-      flex-wrap: wrap;
-  }
-  .transparency-block {
-      margin: 20px 20px 0 0;
-      padding: 20px;
-      font-size: 18px;
-      line-height: normal;
+    height: 100vh;
   }
   body:not(.home) section#pudding h2.section-title {
-      text-align: center;
+    text-align: center;
   }
 }
 @media (max-width: 767px) {
@@ -1157,5 +1173,21 @@ section#transparency {
     line-height: 40px;
     max-width: 286px;
     margin: 0 0 20px;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .transparency-block {
+    margin: 0 0 10px;
+    padding: 20px;
+    font-size: 18px;
+    line-height: normal;
+    width: 100%
+  }
+}
+@media (max-width: 400px) {
+  section#pudding .col-6 {
+    max-width: 100%;
+    flex: 100%;
   }
 }
