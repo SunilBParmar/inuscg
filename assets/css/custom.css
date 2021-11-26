@@ -916,6 +916,7 @@ p.section-text {
   font-size: 20px;
   color: #000;
   font-weight: 500;
+  margin: 0;
 }
 .pricing-block .card .card-content div.icon {
   background: rgba(216, 87, 64, 0.2);
@@ -1476,10 +1477,21 @@ section#coming-soon {
   section#coming-soon {
     padding: 50px 30px;
   }
+  #coming-soon .pudding-details+.pudding-details {
+    margin: 0;
+  }
+  .task-icon {
+    height: 80px;
+    width: 80px;
+    min-width: 80px;
+  }
 }
 @media (max-width: 400px) {
   section#pudding .col-6 {
     max-width: 100%;
     flex: 100%;
+  }
+  .nav-pills .nav-link {
+    padding: 8px 21px;
   }
 }
