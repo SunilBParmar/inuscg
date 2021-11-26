@@ -1027,6 +1027,112 @@ section#coming-soon {
   margin: 30px 0 0;
   flex: 1;
 }
+section#banner {
+  background: #f5f5f5;
+  padding: 55px 0;
+}
+section#solution-blocks {
+  padding: 0;
+}
+section#solution-blocks h2.section-title {
+  padding: 80px 0 0;
+  margin: 0 0 60px;
+}
+.solution-info-block {
+  background: #F7FBFF;
+  box-shadow: 0px 5px 43px 12px rgba(181, 181, 181, 0.15);
+  padding: 50px;
+}
+.solutions-image {
+  margin: 0 100px;
+}
+.solution-info-details h3 {
+  line-height: 33.24px;
+  font-size: 20px;
+  margin: 0 0 4px;
+  text-transform: capitalize;
+}
+.solution-info-details {
+  display: flex;
+  align-items: flex-start;
+}
+.solution-info-details div.icon {
+  margin: 0 20px 0 0;
+}
+.solution-info-details span.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  min-width: 40px;
+  background-repeat: no-repeat;
+  margin: 9px 0 0;
+}
+.solution-info-details p {
+  font-size: 18px;
+  line-height: 24px;
+  color: rgb(34 33 31 / 60%);
+  margin: 0;
+}
+.solution-info-details:not(:last-child) {
+  margin: 0 0 35px;
+}
+.transform-none {
+  text-transform: none !important;
+}
+span.icon.sol-yellow {
+  background-color: #F6F3E8;
+}
+span.icon.sol-blue {
+  background-color: #E3EEFB;
+}
+span.icon.sol-red {
+  background-color: #F6E7ED;
+}
+span.icon.campaign {
+  background-image: url('../images/campaign.png');
+}
+span.icon.data {
+  background-image: url('../images/data.png');
+}
+span.icon.collaboration {
+  background-image: url('../images/collaboration.png');
+}
+span.icon.velocity {
+  background-image: url('../images/velocity.png')
+}
+span.icon.email {
+  background-image: url('../images/email.png')
+}
+span.icon.calculator {
+  background-image: url('../images/calculator.png')
+}
+span.icon.clipboard {
+  background-image: url('../images/clipboard.png')
+}
+span.icon.file {
+  background-image: url('../images/file.png')
+}
+span.icon.presentation {
+  background-image: url('../images/presentation.png')
+}
+span.icon.hourglass {
+  background-image: url('../images/hourglass.png')
+}
+span.icon.progress {
+  background-image: url('../images/progress.png')
+}
+span.icon.bank {
+  background-image: url('../images/bank.png')
+}
+span.icon.chart-line {
+  background-image: url('../images/chart-line.png')
+}
+span.icon.chat {
+  background-image: url('../images/chat.png')
+}
+span.icon.trophy {
+  background-image: url('../images/trophy.png')
+}
 @keyframes swing {
   0% {
     transform: rotate(8deg);
